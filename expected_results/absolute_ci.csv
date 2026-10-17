@@ -1,0 +1,127 @@
+cohort,method,metric,estimate,ci_lower,ci_upper,replicates,cluster_unit
+all,Frozen BGE,ndcg10,0.46622302256583587,0.3932967294454057,0.5481563582032574,10000,source_page_offset
+all,Frozen BGE,mrr10,0.43284841269841323,0.3606072470238098,0.5147822569444445,10000,source_page_offset
+all,Frozen BGE,recall10,0.573,0.497,0.6550124999999999,10000,source_page_offset
+all,Frozen BGE,QDR,0.0,0.0,0.0,10000,source_page_offset
+all,Frozen BGE,ED,0.0,0.0,0.0,10000,source_page_offset
+all,Frozen BGE,CVaR10,0.0,0.0,0.0,10000,source_page_offset
+all,Frozen BGE,acceptance_rate,0.0,0.0,0.0,10000,source_page_offset
+all,Frozen BGE,fallback_rate,1.0,1.0,1.0,10000,source_page_offset
+all,Frozen BGE,order_change_rate,0.0,0.0,0.0,10000,source_page_offset
+all,Always posterior-mean,ndcg10,0.5268699659531568,0.4623784933116366,0.5982922834680999,10000,source_page_offset
+all,Always posterior-mean,mrr10,0.4920601190476192,0.4274006597222222,0.5641089186507936,10000,source_page_offset
+all,Always posterior-mean,recall10,0.6375,0.5729875,0.7075,10000,source_page_offset
+all,Always posterior-mean,QDR,0.027,0.0165,0.039,10000,source_page_offset
+all,Always posterior-mean,ED,0.0060191465417056686,0.0034103305403188704,0.009177279832819298,10000,source_page_offset
+all,Always posterior-mean,CVaR10,0.060191465417056694,0.034103305403188705,0.09177279832819296,10000,source_page_offset
+all,Always posterior-mean,acceptance_rate,1.0,1.0,1.0,10000,source_page_offset
+all,Always posterior-mean,fallback_rate,0.0,0.0,0.0,10000,source_page_offset
+all,Always posterior-mean,order_change_rate,1.0,1.0,1.0,10000,source_page_offset
+all,Pointwise logistic,ndcg10,0.520686306197571,0.4626206552913876,0.5826581105145764,10000,source_page_offset
+all,Pointwise logistic,mrr10,0.4862075396825404,0.43018361111111086,0.5466189831349209,10000,source_page_offset
+all,Pointwise logistic,recall10,0.63,0.565,0.6985124999999999,10000,source_page_offset
+all,Pointwise logistic,QDR,0.0785,0.0485,0.1155,10000,source_page_offset
+all,Pointwise logistic,ED,0.027754670207895515,0.0167215975101669,0.041406913208529315,10000,source_page_offset
+all,Pointwise logistic,CVaR10,0.2775467020789552,0.1672159751016689,0.4030851050842441,10000,source_page_offset
+all,Pointwise logistic,acceptance_rate,1.0,1.0,1.0,10000,source_page_offset
+all,Pointwise logistic,fallback_rate,0.0,0.0,0.0,10000,source_page_offset
+all,Pointwise logistic,order_change_rate,1.0,1.0,1.0,10000,source_page_offset
+all,Adapted EAU,ndcg10,0.5422565773665523,0.4807788338375443,0.6094663268728031,10000,source_page_offset
+all,Adapted EAU,mrr10,0.509159325396826,0.4474596676587303,0.5773792857142853,10000,source_page_offset
+all,Adapted EAU,recall10,0.647,0.585,0.7115,10000,source_page_offset
+all,Adapted EAU,QDR,0.044,0.03,0.0595,10000,source_page_offset
+all,Adapted EAU,ED,0.011740684011281413,0.007619013325169671,0.01641233353629753,10000,source_page_offset
+all,Adapted EAU,CVaR10,0.11740684011281415,0.07619013325169673,0.16412333536297527,10000,source_page_offset
+all,Adapted EAU,acceptance_rate,1.0,1.0,1.0,10000,source_page_offset
+all,Adapted EAU,fallback_rate,0.0,0.0,0.0,10000,source_page_offset
+all,Adapted EAU,order_change_rate,1.0,1.0,1.0,10000,source_page_offset
+all,Gain-only fifth-percentile,ndcg10,0.5261003807088963,0.46157677124355706,0.5973738131570087,10000,source_page_offset
+all,Gain-only fifth-percentile,mrr10,0.4911712301587303,0.42634912202380937,0.563296681547619,10000,source_page_offset
+all,Gain-only fifth-percentile,recall10,0.637,0.572,0.707,10000,source_page_offset
+all,Gain-only fifth-percentile,QDR,0.027,0.0165,0.039,10000,source_page_offset
+all,Gain-only fifth-percentile,ED,0.0060191465417056686,0.0034103305403188704,0.009177279832819298,10000,source_page_offset
+all,Gain-only fifth-percentile,CVaR10,0.060191465417056694,0.034103305403188705,0.09177279832819296,10000,source_page_offset
+all,Gain-only fifth-percentile,acceptance_rate,0.994,0.991,0.997,10000,source_page_offset
+all,Gain-only fifth-percentile,fallback_rate,0.006,0.0030000000000000027,0.009000000000000008,10000,source_page_offset
+all,Gain-only fifth-percentile,order_change_rate,0.994,0.991,0.997,10000,source_page_offset
+all,Downside-penalised Bayes-UQ,ndcg10,0.5222966058700691,0.4567231640475967,0.5945628012492915,10000,source_page_offset
+all,Downside-penalised Bayes-UQ,mrr10,0.4872424603174608,0.4213164186507938,0.5602516121031749,10000,source_page_offset
+all,Downside-penalised Bayes-UQ,recall10,0.6335,0.5685,0.7035,10000,source_page_offset
+all,Downside-penalised Bayes-UQ,QDR,0.0205,0.012,0.03,10000,source_page_offset
+all,Downside-penalised Bayes-UQ,ED,0.004502099110956582,0.002381252965783931,0.007030292866257241,10000,source_page_offset
+all,Downside-penalised Bayes-UQ,CVaR10,0.04502099110956582,0.02381252965783931,0.07030292866257241,10000,source_page_offset
+all,Downside-penalised Bayes-UQ,acceptance_rate,0.895,0.8744875000000001,0.915,10000,source_page_offset
+all,Downside-penalised Bayes-UQ,fallback_rate,0.105,0.08499999999999996,0.12551249999999978,10000,source_page_offset
+all,Downside-penalised Bayes-UQ,order_change_rate,0.895,0.8744875000000001,0.915,10000,source_page_offset
+all,Incumbent Bayes-UQ (xi=0.25),ndcg10,0.5224933596422606,0.45704185878357806,0.5947528394013336,10000,source_page_offset
+all,Incumbent Bayes-UQ (xi=0.25),mrr10,0.4874621031746036,0.4217023660714288,0.560435848214286,10000,source_page_offset
+all,Incumbent Bayes-UQ (xi=0.25),recall10,0.6335,0.5685,0.7035,10000,source_page_offset
+all,Incumbent Bayes-UQ (xi=0.25),QDR,0.022,0.013,0.032,10000,source_page_offset
+all,Incumbent Bayes-UQ (xi=0.25),ED,0.004677477627808754,0.0025294372069133873,0.007195749268276288,10000,source_page_offset
+all,Incumbent Bayes-UQ (xi=0.25),CVaR10,0.04677477627808754,0.02529437206913387,0.0719574926827629,10000,source_page_offset
+all,Incumbent Bayes-UQ (xi=0.25),acceptance_rate,0.9095,0.8895,0.928,10000,source_page_offset
+all,Incumbent Bayes-UQ (xi=0.25),fallback_rate,0.0905,0.07199999999999995,0.11050000000000004,10000,source_page_offset
+all,Incumbent Bayes-UQ (xi=0.25),order_change_rate,0.9095,0.8895,0.928,10000,source_page_offset
+reachable,Frozen BGE,ndcg10,0.6627192929151896,0.6115616938315952,0.7148872011542869,10000,source_page_offset
+reachable,Frozen BGE,mrr10,0.615278482869102,0.5589037232820315,0.6720047184367365,10000,source_page_offset
+reachable,Frozen BGE,recall10,0.814498933901919,0.7756927639429012,0.8513961274357004,10000,source_page_offset
+reachable,Frozen BGE,QDR,0.0,0.0,0.0,10000,source_page_offset
+reachable,Frozen BGE,ED,0.0,0.0,0.0,10000,source_page_offset
+reachable,Frozen BGE,CVaR10,0.0,0.0,0.0,10000,source_page_offset
+reachable,Frozen BGE,acceptance_rate,0.0,0.0,0.0,10000,source_page_offset
+reachable,Frozen BGE,fallback_rate,1.0,1.0,1.0,10000,source_page_offset
+reachable,Frozen BGE,order_change_rate,0.0,0.0,0.0,10000,source_page_offset
+reachable,Always posterior-mean,ndcg10,0.7489267462020708,0.71524451910617,0.7826395400609141,10000,source_page_offset
+reachable,Always posterior-mean,mrr10,0.6994457982197856,0.6602341454084962,0.7388217919088528,10000,source_page_offset
+reachable,Always posterior-mean,recall10,0.906183368869936,0.8852561475409836,0.9246039361313263,10000,source_page_offset
+reachable,Always posterior-mean,QDR,0.03837953091684435,0.024630274342501864,0.05299585186523832,10000,source_page_offset
+reachable,Always posterior-mean,ED,0.008556000770015166,0.00503055245543107,0.012407655175306455,10000,source_page_offset
+reachable,Always posterior-mean,CVaR10,0.08537796513057688,0.050152735303514606,0.12364213036227048,10000,source_page_offset
+reachable,Always posterior-mean,acceptance_rate,1.0,1.0,1.0,10000,source_page_offset
+reachable,Always posterior-mean,fallback_rate,0.0,0.0,0.0,10000,source_page_offset
+reachable,Always posterior-mean,order_change_rate,1.0,1.0,1.0,10000,source_page_offset
+reachable,Pointwise logistic,ndcg10,0.7401368958032281,0.7145538024050861,0.7656466135317954,10000,source_page_offset
+reachable,Pointwise logistic,mrr10,0.6911265667129216,0.6622604206751425,0.7210368637180891,10000,source_page_offset
+reachable,Pointwise logistic,recall10,0.8955223880597015,0.8776071501160436,0.9128660299658284,10000,source_page_offset
+reachable,Pointwise logistic,QDR,0.11158493248045487,0.07387961508248232,0.15245558362758227,10000,source_page_offset
+reachable,Pointwise logistic,ED,0.03945226753076833,0.025374631054268102,0.054606034278562005,10000,source_page_offset
+reachable,Pointwise logistic,CVaR10,0.3886467719494344,0.25285359092260806,0.46771181922590127,10000,source_page_offset
+reachable,Pointwise logistic,acceptance_rate,1.0,1.0,1.0,10000,source_page_offset
+reachable,Pointwise logistic,fallback_rate,0.0,0.0,0.0,10000,source_page_offset
+reachable,Pointwise logistic,order_change_rate,1.0,1.0,1.0,10000,source_page_offset
+reachable,Adapted EAU,ndcg10,0.7707982620704368,0.741190655172495,0.7998044671216724,10000,source_page_offset
+reachable,Adapted EAU,mrr10,0.7237517063210034,0.688326124393055,0.7588970347355319,10000,source_page_offset
+reachable,Adapted EAU,recall10,0.9196872778962332,0.9047287777170323,0.9344528292259809,10000,source_page_offset
+reachable,Adapted EAU,QDR,0.06254442075337598,0.04461524163568773,0.08167165013444043,10000,source_page_offset
+reachable,Adapted EAU,ED,0.016688960925773155,0.011264655613348913,0.022338822972323525,10000,source_page_offset
+reachable,Adapted EAU,CVaR10,0.1665345249827151,0.11235917887045453,0.22282511920998146,10000,source_page_offset
+reachable,Adapted EAU,acceptance_rate,1.0,1.0,1.0,10000,source_page_offset
+reachable,Adapted EAU,fallback_rate,0.0,0.0,0.0,10000,source_page_offset
+reachable,Adapted EAU,order_change_rate,1.0,1.0,1.0,10000,source_page_offset
+reachable,Gain-only fifth-percentile,ndcg10,0.747832808399284,0.7140694784997198,0.7816123528872869,10000,source_page_offset
+reachable,Gain-only fifth-percentile,mrr10,0.6981822745682024,0.6589781303122365,0.7376647113001422,10000,source_page_offset
+reachable,Gain-only fifth-percentile,recall10,0.9054726368159204,0.8847039483768552,0.924067820892623,10000,source_page_offset
+reachable,Gain-only fifth-percentile,QDR,0.03837953091684435,0.024630274342501864,0.05299585186523832,10000,source_page_offset
+reachable,Gain-only fifth-percentile,ED,0.008556000770015166,0.00503055245543107,0.012407655175306455,10000,source_page_offset
+reachable,Gain-only fifth-percentile,CVaR10,0.08537796513057688,0.050152735303514606,0.12364213036227048,10000,source_page_offset
+reachable,Gain-only fifth-percentile,acceptance_rate,0.9928926794598436,0.9888579387186629,0.9965777450371773,10000,source_page_offset
+reachable,Gain-only fifth-percentile,fallback_rate,0.007107320540156361,0.0034222549628226797,0.011142061281337101,10000,source_page_offset
+reachable,Gain-only fifth-percentile,order_change_rate,0.9928926794598436,0.9888579387186629,0.9965777450371773,10000,source_page_offset
+reachable,Downside-penalised Bayes-UQ,ndcg10,0.7424258789908588,0.7074729392371529,0.7774918459671244,10000,source_page_offset
+reachable,Downside-penalised Bayes-UQ,mrr10,0.692597669250122,0.651659483299336,0.7333012300697351,10000,source_page_offset
+reachable,Downside-penalised Bayes-UQ,recall10,0.900497512437811,0.8799054642099755,0.9194682372272318,10000,source_page_offset
+reachable,Downside-penalised Bayes-UQ,QDR,0.02914001421464108,0.017964071856287425,0.04049665561517664,10000,source_page_offset
+reachable,Downside-penalised Bayes-UQ,ED,0.006399572297024281,0.003542530847422188,0.009464435170908583,10000,source_page_offset
+reachable,Downside-penalised Bayes-UQ,CVaR10,0.06385956185754017,0.03525444185692369,0.09440424949837292,10000,source_page_offset
+reachable,Downside-penalised Bayes-UQ,acceptance_rate,0.8784648187633263,0.8568360773085183,0.8999218440118429,10000,source_page_offset
+reachable,Downside-penalised Bayes-UQ,fallback_rate,0.12153518123667377,0.1000781559881571,0.1431639226914817,10000,source_page_offset
+reachable,Downside-penalised Bayes-UQ,order_change_rate,0.8784648187633263,0.8568360773085183,0.8999218440118429,10000,source_page_offset
+reachable,Incumbent Bayes-UQ (xi=0.25),ndcg10,0.7427055574161487,0.7076836150101283,0.77760721733189,10000,source_page_offset
+reachable,Incumbent Bayes-UQ (xi=0.25),mrr10,0.6929098836881359,0.6521583236285929,0.7336530921843237,10000,source_page_offset
+reachable,Incumbent Bayes-UQ (xi=0.25),recall10,0.900497512437811,0.8796033451224388,0.9197350240720211,10000,source_page_offset
+reachable,Incumbent Bayes-UQ (xi=0.25),QDR,0.03127221037668799,0.01977186311787072,0.043307686361479684,10000,source_page_offset
+reachable,Incumbent Bayes-UQ (xi=0.25),ED,0.006648866564049402,0.0037650558903555933,0.009717535663824484,10000,source_page_offset
+reachable,Incumbent Bayes-UQ (xi=0.25),CVaR10,0.06634720039445041,0.03759737632305488,0.09685949656730915,10000,source_page_offset
+reachable,Incumbent Bayes-UQ (xi=0.25),acceptance_rate,0.8948116560056859,0.8740043446777698,0.9151525207830518,10000,source_page_offset
+reachable,Incumbent Bayes-UQ (xi=0.25),fallback_rate,0.10518834399431415,0.08484747921694824,0.12599565532223023,10000,source_page_offset
+reachable,Incumbent Bayes-UQ (xi=0.25),order_change_rate,0.8948116560056859,0.8740043446777698,0.9151525207830518,10000,source_page_offset

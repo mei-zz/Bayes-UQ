@@ -1,0 +1,20 @@
+[
+  {
+    "copied_file": "vendor/track_f033_contextual_posterior.py",
+    "original_file": "<ORIGINAL_SOURCE_SNAPSHOT>/track_f033_contextual_posterior.py",
+    "sha256": "fa96ecbbc0a1b368d7fc71cefaeb9132c139016d025539fbc7c9038e57ff79af",
+    "modification": "none; copied verbatim"
+  },
+  {
+    "copied_file": "vendor/run_frontier_f34_outer_once.py",
+    "original_file": "<ORIGINAL_SOURCE_SNAPSHOT>/run_frontier_f34_outer_once.py",
+    "sha256": "cc4af59b2b0d87a19da92b29c1b0f387e860d28931663af32c6ea7e7a5e8ed65",
+    "modification": "none; copied verbatim"
+  },
+  {
+    "copied_file": "vendor/analyze_frontier_f34_outer_paired_v2.py",
+    "original_file": "<ORIGINAL_SOURCE_SNAPSHOT>/analyze_frontier_f34_outer_paired_v2.py",
+    "sha256": "2975ffa3c4325350b9b562b9446e0e17bbadbf01a470e7bae1f4c7ce27be4e44",
+    "modification": "none; copied verbatim"
+  }
+]

@@ -1,0 +1,7 @@
+cohort,method,N,always_losses,rejected_improvements,rejected_ties,rejected_losses,remaining_losses,loss_interception_recall
+all,Downside-penalised Bayes-UQ,2000,54,45,152,13,41,0.24074074074074073
+all,Gain-only fifth-percentile,2000,54,4,8,0,54,0.0
+all,Incumbent Bayes-UQ (xi=0.25),2000,54,39,132,10,44,0.18518518518518517
+reachable,Downside-penalised Bayes-UQ,1407,54,45,113,13,41,0.24074074074074073
+reachable,Gain-only fifth-percentile,1407,54,4,6,0,54,0.0
+reachable,Incumbent Bayes-UQ (xi=0.25),1407,54,39,99,10,44,0.18518518518518517

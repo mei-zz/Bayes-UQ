@@ -1,0 +1,55 @@
+{
+  "created_utc": "2026-10-15T14:48:18.834636+00:00",
+  "source_root": "PATH_TO_LOCKED_INTERNAL_SOURCE",
+  "design": "Fixed-posterior decision-rule replay on the previously developed internal cohort",
+  "expected_queries": 483,
+  "outer_folds": 5,
+  "rho": 2,
+  "draws_per_query": 128,
+  "proposal": "Saved rho=2 posterior-mean order, canonical-ID ties",
+  "reference": "Saved frozen backbone, canonical-ID ties",
+  "gain": "Same-draw expected discounted utility of proposal minus reference",
+  "rules": {
+    "always_proposal": "Accept every saved proposal",
+    "positive_mean_gain": "mean(G)>0",
+    "empirical_quantile_05": "numpy linear empirical quantile(G,0.05)>0",
+    "normal_moment_05": "mean(G)-1.6448536269514722*std(G,ddof=0)>0",
+    "cantelli_moment_05": "mean(G)-sqrt(19)*std(G,ddof=0)>0"
+  },
+  "sd_definition": "Empirical posterior SD of 128 gain draws, not SD/sqrt(128)",
+  "threshold_selection": "All coefficients and strict-zero thresholds fixed before this run; no test-qrel selection",
+  "action_lock": "All actions and complete selected rankings saved before reading qrels",
+  "fallback": "Complete saved reference order",
+  "comparison_reference": "empirical_quantile_05",
+  "primary_metrics": [
+    "ndcg10",
+    "QDR",
+    "ED",
+    "CVaR10"
+  ],
+  "secondary_metrics": [
+    "mrr10",
+    "recall10"
+  ],
+  "bootstrap": {
+    "unit": "query",
+    "replicates": 10000,
+    "seed": 20261015,
+    "common_resamples": true,
+    "tail": "ceil(0.1*N), retaining zeros",
+    "interval": "nominal paired percentile 95% CI; not multiplicity adjusted",
+    "scope": "conditional on fixed predictions; excludes refitting and selection uncertainty"
+  },
+  "p_values": "Not computed; no significance claims will be made from this job",
+  "limits": [
+    "Not a mutual-information substitution experiment",
+    "No independent holdout or training-uncertainty evaluation",
+    "Normal-moment rule is a moment approximation, not an exact quantile",
+    "Cantelli concerns the empirical gain distribution, not realised nDCG risk",
+    "Acceptance levels need not match; all actions will be reported"
+  ],
+  "python": "3.11.11 (main, Dec 11 2024, 16:28:39) [GCC 11.2.0]",
+  "numpy": "1.26.4",
+  "pandas": "2.3.3",
+  "filesystem_note": "Absolute source-directory path replaced for sharing; statistical settings unchanged."
+}

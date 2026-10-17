@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+reproduced_evaluation/
+synthetic_core/synthetic_fixture/
+synthetic_core/synthetic_outputs/
+synthetic_core/synthetic_outputs_repeat/
+*.log
+.DS_Store
+Thumbs.db

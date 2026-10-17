@@ -1,0 +1,21 @@
+{
+  "protocol_id": "MIRAGE_FINE_TRAIN_OOF_GRID_20261015",
+  "purpose": "Exploratory refinement of the training-side penalty grid under the unchanged effectiveness constraint",
+  "parent_run": "/home/ubuntu/apin_revision_mirage_train_utility_20261015_032340",
+  "source_root": "/home/ubuntu/apin_revision_bayes_uq_frontier/16_EXTERNAL_AGRICULTURE/mirage_mmst_f34_v1",
+  "grid": "xi=k/200 for k=0..100, plus 1,2,4,8; 105 total candidates",
+  "model_refitting": false,
+  "training_data": "Reuse the saved five-page-group OOF gain/downside arrays and proposal/reference outcomes for the same 1000 adaptation queries",
+  "admissibility": "OOF nDCG >= OOF Always nDCG - 0.005 and OOF CVaR <= OOF Always CVaR",
+  "selection_order": ["minimum OOF CVaR", "maximum OOF nDCG", "minimum xi"],
+  "empty_admissible_set": "Retain xi=0 and record failure to meet constraints",
+  "primary_selection_metric": "CVaR10% under fixed mean-effectiveness constraint",
+  "numeric_comparisons": "Unrounded float64; zero comparison tolerance; exact lexicographic tie-breaking",
+  "decision": "linear empirical q0.05(G-xi*D)>0, otherwise complete frozen reference",
+  "test_policy": "Freeze selected coefficient and predictions; evaluate only the selected rule, not a test grid",
+  "test_comparisons": ["incumbent xi=0.25", "gain-only xi=0", "Always", "Frozen BGE", "EAU", "Pointwise logistic"],
+  "evaluation": "Full 2000-query and conditional 1407 reachable cohorts, paired 20-source-page-cluster bootstrap, 10000 resamples, seed20261015; nominal percentile CI",
+  "reporting": ["nDCG, MRR, Recall, QDR, ED, CVaR", "accepted/fallback", "rejected improvements/ties/losses", "all 105 training candidates", "both beneficial and adverse paired effects"],
+  "interpretation": "Previously evaluated test cohort; this refinement is exploratory and cannot be described as an independent confirmation",
+  "paper_adoption": "Assess the full effectiveness-downside trade-off; do not select or claim improvement from interception count alone"
+}
